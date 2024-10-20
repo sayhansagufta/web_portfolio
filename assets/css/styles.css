@@ -306,7 +306,7 @@ img {
 }
 
 .home__blob-img {
-  width: 170px;
+  width: 220px;
 }
 
 .home__data {
@@ -825,11 +825,15 @@ img {
 }
 
 .project__title {
+  display: flex;
+  justify-content: center;
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-0-75);
 }
 
 .project__description {
+  display: flex;
+  justify-content: center;
   margin-bottom: var(--mb-1-5);
 }
 
